@@ -1,0 +1,27 @@
+body{
+
+font-family: Helvetica;
+text-align: center;
+
+}
+
+.rng{
+
+    font-size: 4em
+
+}
+#b1{
+
+    font-size: 3em;
+    background-color: hsl(160, 100%, 75%);
+    border-radius: 5px;
+    border-style: outset;
+
+}
+
+#b1:hover{
+
+    background-color: hsla(160, 100%, 75%, 0.659);
+    cursor:pointer
+
+}
