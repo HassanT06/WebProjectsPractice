@@ -8,13 +8,15 @@
 <body>
     <form>
         <h1>Temperature Convertor</h1>
-        <input type ="number" id="TempV"><br>
-        <input type="radio" id="CF" name="units"> <label for="CF">Celsius to Farenheight</label><br>
-        <input type="radio" id="FC" name="units"> <label for ="FC">Farenheight to Celsius</label><br>
-        <button type ="button" id="Convert">Submit</button><br>
-        <button type ="reset" id="Convert">Reset</button>
-    </form>
+        <input type ="number" id="TempV" value="0"><br>
 
+        <input type="radio" id="toFarenheight" name="unit"> <label for="toFarenheight">Celsius to Farenheight</label><br>
+        <input type="radio" id="toCelsius" name="unit"> <label for ="toCelsius">Farenheight to Celsius</label><br>
+        <button type ="button" id="ConvertB" onclick="convert()">Submit</button><br>
+        <button type ="reset" id="Reset">Reset</button>
+        <p id ="result"> </p>
+    </form>
+    <script src ="index.js"></script>
 </body>
-<script src ="index.js"></script>
+<link rel ="stylesheet" href ="style.css">
 </html>
