@@ -24,12 +24,10 @@ body{
 }
 #l2{
     font-size: 1.5rem;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 input{
     max-width: 100px;
-    
 }
 button{
     margin: 10px;
@@ -40,10 +38,21 @@ button{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: bold;  
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 button:hover{
     background-color: hsl(180, 98%, 30%);
 }
 button:active{
     background-color: hsl(180, 98%, 20%);
+}
+
+#l3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+    background-color: chartreuse;
+
 }
