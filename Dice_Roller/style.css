@@ -1,0 +1,30 @@
+#Container{
+    font-family: Helvetica;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+#h1{
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+input{
+    font-size: 2rem;
+    max-width: 150px;
+    text-align: center;
+}
+button{
+    font-size: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(180, 91%, 36%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(180, 91%, 50%);
+}
+button:active{
+    background-color: hsl(180, 91%, 75%);
+}
