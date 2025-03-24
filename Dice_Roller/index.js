@@ -1,14 +1,19 @@
-let values =[]
-let images =[]
-
 function rolldice(){
 
     const numOfDice = document.getElementById("NumOfDice").value
+    const DiceResult = document.getElementById("DiceResult")
+    const ImagesResult = document.getElementById("ImagesResult")
+    let values =[]
+    let images =[]
 
     for(let i = 0; i<numOfDice; i++ ){
         let value = Math.floor(Math.random()*6)+1
         values.push(value)
-        console.log(values)
+        images.push(`<img src="Images/Man${value}.png" alt="Dice ${value}>"`)
+        console.log(images)
     }
+    DiceResult.textContent = "Dice Rolled: " + values
+    ImagesResult.innerHTML = images.join("")
+    
 
 }
