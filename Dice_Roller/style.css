@@ -31,6 +31,9 @@ button:active{
 #DiceResult{
     margin-top: 15px;
 }
-#ImagesResult{
+#ImagesResult img{
     max-width: 150px;
+    max-height: 150px;
+    margin: auto;
+    margin-top: 15px;
 }
