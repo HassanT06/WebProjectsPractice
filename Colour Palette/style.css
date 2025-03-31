@@ -13,6 +13,7 @@ body{
     display: inline-block;
     border: 1px solid #000000;
     background-color: hsl(208, 57%, 92%);
+    cursor: pointer;
 }
 .colours:hover{
     transform: scale(1.05); /* Scale up the element on hover */
@@ -37,4 +38,21 @@ body{
     margin: 20px auto; /* Add spacing around the grid */
     padding: 0;
     background-color: aliceblue;
+}
+
+.colour-text {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s;
+    background: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex; /* Center text inside the div */
+    color: white; /* Text color */
+    font-size: 1.5rem; /* Font size for the text */
+}
+
+.colours:hover .colour-text {
+    opacity: 1; /* Show text when hovered */
 }
