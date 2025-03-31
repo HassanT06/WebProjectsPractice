@@ -1,7 +1,9 @@
 let newColour = document.getElementById("new");
 let Container = document.getElementById("Container");
 let colour;
-let colourtype ="";
+//let colourtype ="";
+let colourBlock;
+let colourText;
 
 const cssColors = [
     "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige", "bisque", "black", "blanchedalmond",
@@ -26,15 +28,13 @@ const cssColors = [
 
 newColour.addEventListener("click", event => {
     colour = prompt("Enter a colour value: (rgb=255,0,0) (hex=#ff0000) (hsl=0,100%,50%)");
-    let colourBlock = document.createElement("div");
-    colourBlock.className = "colours";
-
-    let colourText = document.createElement("span");
-    colourText.className = "colour-text";
+    if (colour !=null  &&  colour!=""){
+        colourBlock = document.createElement("div");
+        colourBlock.className = "colours";
+        colourText = document.createElement("span");
+        colourText.className = "colour-text";    
+    }
     
-    
-
-
     let children = Container.children;
     if (children.length > 0) {
         Container.insertBefore(colourBlock,children[children.length-1]);
@@ -67,6 +67,7 @@ newColour.addEventListener("click", event => {
                 break;
             default:
                 alert("Please enter a valid colour value.");
+                colourBlock.remove();
                 return;
         }
         colourBlock.appendChild(colourText);
@@ -75,5 +76,11 @@ newColour.addEventListener("click", event => {
     else {
         alert("Please enter a valid colour value.");
     }
-
 })
+
+Container.addEventListener("click", event => {
+    if (event.target.className === "colours") {
+        copyText = event.target.querySelector(".colour-text").textContent;
+        navigator.clipboard.writeText(copyText);
+        alert("Colour value copied to clipboard: " + copyText);
+    }})
