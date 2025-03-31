@@ -70,7 +70,6 @@ newColour.addEventListener("click", event => {
                 return;
         }
         colourBlock.appendChild(colourText);
-        console.log(colour);
         colourBlock.title = colour;
     }
     else {
