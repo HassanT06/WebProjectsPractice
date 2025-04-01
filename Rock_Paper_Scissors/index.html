@@ -9,12 +9,19 @@
     <div id="Container">
         <h1> ROCK PAPER SCISSORS</h1>
         <div id="buttonContainer">
-        <button class="buttons">Rock</button>
-        <button class="buttons">Paper</button>
-        <button class="buttons">Scissors</button>
+        <button class="buttons" id="rock">Rock</button>
+        <button class="buttons"id="paper">Paper</button>
+        <button class="buttons"id="scissors">Scissors</button>
         </div>
-        <img src="player.png" alt="playericon" id="player">
-        <img src="computer.png" alt="computericon" id="computer">
+        <div id="imgContainer">
+            <img src="player.png" alt="playericon" id="player">
+            <img src="computer.png" alt="computericon" id="computer">
+        </div>
+        <div id="selection">
+            <p class="selection">PS:</p>
+            <p id="VS">VS</p>
+            <p class="selection">CS:</p>
+        </div>
         <div id="scores">
             <p> Player Score:</p>
             <p> Computer Score:</p>
@@ -22,4 +29,6 @@
         <div id="result">IT'S A TIE</div>
     </div>
 </body>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 </html>
