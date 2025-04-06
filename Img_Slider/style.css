@@ -1,0 +1,45 @@
+body{
+    font-family: Helvetica;
+    background-color: aliceblue;
+}
+#slider{
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.slides img{
+    width: 700px;
+    height: 700px;
+    display: none;
+    margin: 0 auto;
+}
+.slides img.active{
+    display: block;
+    border-radius: 10px;
+}
+button{
+    font-size: 2rem;
+    border: none;
+    background-color: hsl(0, 0%, 25%);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 50%);
+}
+#prev, #next {
+    position: absolute;
+    top: 50%; /* Vertically center the buttons */
+}
+
+#prev {
+    left: 0; 
+}
+
+#next {
+    right: 0; 
+}
