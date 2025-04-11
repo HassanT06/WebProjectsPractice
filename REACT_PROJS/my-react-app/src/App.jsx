@@ -6,10 +6,12 @@ function App() {
   
   return(
     <>
-    <Card image="HeatedHeart"></Card>
-    <Card image="EmergencyCall"></Card>
-    <Card image ="RighteousJustice"></Card>
-    <Card image ="Oversoul"></Card>
+    <Card image="Heated_Heart"type="Spell"></Card>
+    <Card image="Emergency_Call"type="Spell"></Card>
+    <Card image ="Righteous_Justice"type="Spell"></Card>
+    <Card image ="Oversoul"type="Spell"></Card>
+    <Card image ="Hero_Flash" type="Spell"></Card>
+    <Card image ="Hero_Signal" type="Trap"></Card>
     </>
   );
 }
