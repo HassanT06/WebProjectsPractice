@@ -1,13 +1,15 @@
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import Demons from "./Demons.jsx";
+//import Header from "./Header.jsx";
+//import Footer from "./Footer.jsx";
+//import Demons from "./Demons.jsx";
+import Card from "./Card.jsx";
 function App() {
   
   return(
     <>
-    <Header></Header>
-    <Demons></Demons>
-    <Footer></Footer>
+    <Card></Card>
+    <Card></Card>
+    <Card></Card>
+    <Card></Card>
     </>
   );
 }
