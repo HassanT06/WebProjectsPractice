@@ -6,10 +6,10 @@ function App() {
   
   return(
     <>
-    <Card></Card>
-    <Card></Card>
-    <Card></Card>
-    <Card></Card>
+    <Card image="HeatedHeart"></Card>
+    <Card image="EmergencyCall"></Card>
+    <Card image ="RighteousJustice"></Card>
+    <Card image ="Oversoul"></Card>
     </>
   );
 }
