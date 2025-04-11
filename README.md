@@ -1,4 +1,4 @@
-Repository to document my learning of various techonologies like:
+Repository to document my learning of various technologies like:
 ------------------
 -HTML/CSS  ✓
 
