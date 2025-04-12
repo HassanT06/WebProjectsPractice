@@ -27,3 +27,39 @@
   color: rgb(61, 61, 61);
   font-family: Helvetica;
 }
+
+.counter{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.139);
+  padding: 10px;
+  margin: 10px;
+}
+.counter .count{
+  font-size: 5em;
+  font-weight: bold;
+  color: rgb(255, 81, 81);
+  font-family: Helvetica;
+  padding: 10px;
+}
+.counter button{
+  font-size: 2em;
+  margin-inline: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(27, 39, 49);
+  color: rgb(255, 81, 81);
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.counter button:hover{
+  background-color: rgb(255, 81, 81);
+  color: rgb(27, 39, 49);
+  scale: 1.2;
+  transition: all 0.1s ease;
+}
