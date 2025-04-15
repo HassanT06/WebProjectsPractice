@@ -1,6 +1,35 @@
 import React, { useState, useEffect, useRef } from 'react';
 function Stopwatch(){
 
+    const [isRunning, setIsRunning] = useState(false);
+    const [time, setTime] = useState(0);
+    const intervalRef = useRef(null);
+
+    useEffect(() => {
+        if (isRunning) {
+            intervalRef.current = setInterval(() => {
+                setTime();
+            }, 1000);
+        } else {
+            clearInterval(intervalRef.current);
+        }
+        return () => clearInterval(intervalRef.current);
+    })
+
+    function start(){
+        setIsRunning(true);
+    }
+    function stop(){
+        setIsRunning(false);
+    }
+    function reset(){
+        setIsRunning(false);
+        setTime(0);
+    }
+
+
+
+
     return(
         <>
             <div className='stopwatch-container'>
