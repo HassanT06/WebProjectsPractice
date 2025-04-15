@@ -4,12 +4,13 @@
 //import Card from "./Card.jsx";
 //import Counter from "./Counter.jsx";
 //import Todolist from "./todolist.jsx";
-import Clock from "./clock.jsx";
+//import Clock from "./clock.jsx";
+import Stopwatch from "./stopwatch.jsx";
 function App() {
   
   return(
     <>
-      <Clock></Clock>
+      <Stopwatch></Stopwatch>
     </>
   );
 }
