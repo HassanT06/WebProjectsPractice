@@ -1,14 +1,15 @@
 //import Header from "./Header.jsx";
 //import Footer from "./Footer.jsx";
 //import Demons from "./Demons.jsx";
-import Card from "./Card.jsx";
-import Counter from "./Counter.jsx";
-import Todolist from "./todolist.jsx";
+//import Card from "./Card.jsx";
+//import Counter from "./Counter.jsx";
+//import Todolist from "./todolist.jsx";
+import Clock from "./clock.jsx";
 function App() {
   
   return(
     <>
-      <Todolist></Todolist>
+      <Clock></Clock>
     </>
   );
 }
