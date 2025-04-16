@@ -4,9 +4,9 @@ Repository to document my learning of various technologies like:
 
 -Javascript ✓
 
--React [Learning....]
+-React ✓
 
--MongoDB
+-MongoDB [Learning....]
 
 -MySQL
 
