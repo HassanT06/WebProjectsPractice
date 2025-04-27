@@ -6,8 +6,7 @@ Repository to document my learning of various technologies like:
 
 -React ✓
 
--MongoDB [Learning....]
-
+THE FOLLOWING I HAVE BEGUN LEARNING BUT HAVE MOVED TO A DIFFERENT REPOSITORY:
 -MySQL
 
 -PHP
