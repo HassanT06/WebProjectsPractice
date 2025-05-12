@@ -1,0 +1,64 @@
+body{
+    font-size: 2rem;
+    font-family:Helvetica;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.weatherInfo{
+    margin-top: 3%;
+}
+.weatherInfo input{
+    width: 300px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.weatherInfo button{
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(11, 78%, 56%);
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.weatherInfo button:hover{
+    background-color: hsl(12, 70%, 46%);
+    scale: 1.1;
+    transition: all 0.1s;
+}
+.weatherInfo button:active{
+    background-color: hsl(12, 70%, 66%);
+    scale: 1;
+    transition: all 0.1s;
+}
+.weatherResult{
+    margin-top: 3%;
+    text-align: center;
+    background: linear-gradient(#f53e26,#f7c739, rgb(251, 255, 227));
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: none;
+    flex-direction: column;
+}
+.weatherResult h2{
+    font-size: 3rem;
+    margin: 0;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.weatherResult p{
+    font-weight: bold;
+    font-style: italic;
+}

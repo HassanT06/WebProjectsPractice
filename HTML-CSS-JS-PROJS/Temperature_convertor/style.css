@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(0, 0%, 87%);
+    font-family: Helvetica;   
+}
+form{
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    
+}
+h1{
+    color: hsl(160, 94%, 38%);    
+}
+input{
+    text-align: center;
+    font-size: 2em;
+    margin: 5px;
+}
+button{
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#TempV{
+width: 25%;
+border: solid 2px hsla(0, 0%, 17%, 0.383);
+border-radius: 5px;
+margin-bottom: 10px;
+}
+#ConvertB{
+    background-color: red;
+}
+#ConvertB:hover{
+    background-color: hsla(0, 100%, 50%, 0.617);
+}
+#Reset{
+    background-color: blue;  
+}
+#Reset:hover{
+    background-color: rgba(0, 0, 255, 0.568);  
+}
+label{
+    font-weight: bold;
+    font-size: 1.25em;
+}

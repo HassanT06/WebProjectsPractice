@@ -1,0 +1,67 @@
+#Container{
+    text-align: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 2.5rem;
+}
+h1{
+    background-color: hsl(180, 98%, 38%);
+    margin-top:0px;
+    color: aliceblue;
+}
+.buttons{
+    font-size: 3rem;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 0px 50px 50px 0px;
+    background-color: hsl(0, 91%, 65%);
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.buttons:hover{
+
+    background-color: hsl(0, 91%, 75%);
+    scale: 1.2;
+    transition: all 0.3s;
+}
+.buttons:active{
+    background-color: hsl(0, 91%, 35%);
+}
+img{
+    max-width: 300px;
+    max-height: 250px;
+}
+#imgContainer {
+    display: flex;
+    justify-content: center;
+    gap: 9em; /* Space between images */
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    gap: 9em;
+}
+#result{
+    font-size: 5rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+}
+#selection{
+    display: flex;
+    justify-content: center;
+    gap: 5.5em;
+}
+.selection{
+    border: 2px solid hsl(0, 91%, 65%);
+    border-radius: 50px;
+    padding: 15px;
+}
+#VS{
+    font-size: 3rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+}

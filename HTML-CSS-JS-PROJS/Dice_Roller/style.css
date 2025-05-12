@@ -1,0 +1,49 @@
+#Container{
+    font-family: Helvetica;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+#h1{
+    margin-top: 0;
+    margin-bottom: 2.5%;
+    color: aliceblue;
+    background-color: hsl(215, 91%, 36%);
+}
+input{   
+    font-size: 2rem;
+    max-width: 150px;
+    text-align: center;
+}
+#NumOfSides{
+    margin-bottom: 45px;
+    border: 3px solid hsl(180, 91%, 36%);
+
+}
+button{
+    font-size: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(180, 91%, 36%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(180, 91%, 50%);
+}
+button:active{
+    background-color: hsl(180, 91%, 75%);
+}
+#DiceResult{
+    margin-top: 15px;
+}
+#ImagesResult img{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
